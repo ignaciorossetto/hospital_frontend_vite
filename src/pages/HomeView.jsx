@@ -4,9 +4,14 @@ const HomeView = () => {
   return (
     <>
         <h1>
-        Welcome to landing page
+        Home
         </h1>
-        <Link to={'/login'}>login</Link>
+        <ul>
+            <li>
+            <Link className='homeLink' to={'/login'}>login</Link>
+            </li>
+
+        </ul>
         </>
   )
 }
