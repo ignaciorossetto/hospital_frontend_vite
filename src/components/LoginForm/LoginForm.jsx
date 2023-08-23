@@ -55,7 +55,7 @@ const LoginForm = () => {
             {error && <span className='login_form_error' >{error}</span>}
             <button className="login_form_submitBtn">Iniciar sesión</button>
           <div>
-            <Link to='/sign-up'>¿No estás registrado? <span className='underline hover:scale-110 duration-150'>Regístrate</span></Link>
+            <Link to='#'>¿No estás registrado? <span>Regístrate</span></Link>
           </div>
               </>
           }
