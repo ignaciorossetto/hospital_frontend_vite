@@ -4,8 +4,26 @@ body {
   margin: 0 auto;
 }
 
+.homeButton{
+  background-color: rgb(16, 121, 241);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 15px;
+  transition: all 0.2s ease-in-out;
+
+}
+
+.homeButton:active{
+  background-color: rgba(32, 12, 144, 0.8);
+}
+
+.homeButton:hover{
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+}
+
 .homeLink{
   font-size: 30px;
-  color: green;
+  color: white;
   cursor: pointer;
 }

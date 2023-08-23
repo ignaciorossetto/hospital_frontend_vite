@@ -6,12 +6,10 @@ const HomeView = () => {
         <h1>
         Home
         </h1>
-        <ul>
-            <li>
-            <Link className='homeLink' to={'/login'}>login</Link>
-            </li>
+        <button className='homeButton'>
+                <Link className='homeLink' to={'/login'}>login</Link>
+        </button>
 
-        </ul>
         </>
   )
 }
