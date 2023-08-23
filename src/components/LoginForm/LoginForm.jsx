@@ -51,13 +51,12 @@ const LoginForm = () => {
                   <label>Contraseña</label>
                   <input required minLength={8} type="password" name='password' className='login_form_input'  onChange={handleInputChange}/>
                 </div>  
-          </div>
+            </div>
             {error && <span className='login_form_error' >{error}</span>}
             <button className="login_form_submitBtn">Iniciar sesión</button>
-          <div>
-            <Link to='#'>¿No estás registrado? <span>Regístrate</span></Link>
-          </div>
-              </>
+            <span to='#'className='login_form_signUpLink' >¿No estás registrado? <Link className='login_form_signUpSpan'>Regístrate</Link></span>
+            
+            </>
           }
         </form>
     </div>

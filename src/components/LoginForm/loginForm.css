@@ -86,12 +86,19 @@
 }
 
 
-div a {
+.login_form_signUpLink {
     text-decoration: none;
     color: #060F6F;
     font-size: 15px;
     font-weight: bold;
 }
+
+.login_form_signUpSpan{
+    text-decoration: none;
+    color: #060F6F;
+    border-bottom: 1px solid #060F6F;
+}
+
 
 .login_form_error{
     color: red;
