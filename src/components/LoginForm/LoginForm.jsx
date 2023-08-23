@@ -18,7 +18,7 @@ const LoginForm = () => {
           try {
           const response = await axios.post('https://institutoweb-hospital-backend.onrender.com/api/users/login', user)
           setLoading(false)
-          console.log(response.data)
+          alert(JSON.stringify(response.data))
         } catch (error) {
           setError(error.response.data.payload.message)
           setLoading(false)
