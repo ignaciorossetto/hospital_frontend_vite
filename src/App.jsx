@@ -1,7 +1,7 @@
 import {Routes, Route} from 'react-router-dom'
-import LoginView from './pages/LoginView'
-import HomeView from './pages/HomeView'
-import EstudiosView from './pages/EstudiosView'
+import LoginView from './pages/LoginView/LoginView'
+import HomeView from './pages/HomeView/HomeView'
+import EstudiosView from './pages/EstudiosView/EstudiosView'
 
 const App = () => {
   return (
