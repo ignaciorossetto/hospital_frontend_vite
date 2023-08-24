@@ -1,8 +1,14 @@
-body {
-  max-width: 90%;
-  width: 1080px;
-  margin: 0 auto;
+@media screen and (min-width: 1080px){
+  body {
+    /* max-width: 90%; */
+    width: 1080px;
+    margin: 0 auto;
+  }
 }
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
 
 .homeButton{
   background-color: rgb(16, 121, 241);

@@ -9,6 +9,11 @@ const HomeView = () => {
         <button className='homeButton'>
                 <Link className='homeLink' to={'/login'}>login</Link>
         </button>
+        <br />
+        <br />
+        <button className='homeButton'>
+                <Link className='homeLink' to={'/estudios'}>estudios</Link>
+        </button>
 
         </>
   )
