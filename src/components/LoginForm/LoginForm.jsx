@@ -37,15 +37,15 @@ const LoginForm = () => {
 
   return (
     <div className='login_container'>
-          <h1 className="login_form_title">{loading ? 'Ingresando...' : 'Tu cuenta'}</h1>
+          <h1 className="login_form_title">{loading ? 'Ingresando...' : 'Ingreso'}</h1>
         <form className='login_form' onSubmit={handleSubmitClick}>
             {
               loading ? <FontAwesomeIcon icon={faSpinner} spin size='2xl'className='login_form_spinner' /> :
               <>
           <div className='login_form_inputs_container'>
                 <div className='login_form_inputLabel_container'>
-                  <label>Usuario</label>
-                  <input required type="email" name='email' className='login_form_input'  onChange={handleInputChange}/>
+                  <label>Email</label>
+                  <input required type="email" placeholder='juan@email.com' name='email' className='login_form_input'  onChange={handleInputChange}/>
                 </div>
                 <div className='login_form_inputLabel_container'>
                   <label>Contraseña</label>
