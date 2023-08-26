@@ -13,18 +13,6 @@ import {
 const EstudiosView = () => {
   return (
     <>
-      <header
-        style={{
-          height: "100px",
-          backgroundColor: "white",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          fontWeight: 800,
-        }}
-      >
-        HEADER
-      </header>
       <main>
         <h1 className="estudios_title">¿Que estudios realizamos?</h1>
         <div className="estudios_container">
@@ -109,18 +97,6 @@ const EstudiosView = () => {
           </div>
         </div>
       </main>
-      <footer
-        style={{
-          height: "100px",
-          backgroundColor: "white",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          fontWeight: 800,
-        }}
-      >
-        Footer
-      </footer>
     </>
   );
 };
